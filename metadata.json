@@ -1,11 +1,27 @@
 {
-  "name": "My NFT",
-  "symbol": "MYNFT",
+  "name": "My Token",
+  "symbol": "MYTK",
+  "description": "This is a custom token on Solana.",
   "image": "https://ljdl1.github.io/lll/token-image.png",
-  "description": "This is my NFT description.",
+  "seller_fee_basis_points": 500,
   "attributes": [
     { "trait_type": "Background", "value": "Blue" },
     { "trait_type": "Eyes", "value": "Laser" }
-  ]
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://ljdl1.github.io/lll/token-image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "DLQ7Q4QYAqA2vgLP2PjuBfPAwuYctvE5oCzFyM9AeTpJ",
+        "share": 100
+      }
+    ]
+  }
 }
 
