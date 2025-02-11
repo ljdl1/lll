@@ -1,6 +1,11 @@
 {
-  "name": "MyToken",
-  "symbol": "MTK",
-  "description": "This is my token metadata.",
+  "name": "My NFT",
+  "symbol": "MYNFT",
+  "image": "https://ljdl1.github.io/lll/token-image.png",
+  "description": "This is my NFT description.",
+  "attributes": [
+    { "trait_type": "Background", "value": "Blue" },
+    { "trait_type": "Eyes", "value": "Laser" }
+  ]
 }
 
